@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+}
+
+body{
+    background:#eee;
+}
+
+section{
+    padding:2rem 9%;
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(./Assest/banner-bg.webp) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 17rem;
+    padding-bottom: 10rem;
+}
+
+.home .content{
+    text-align: center;
+    width:60rem;
+}
+
+.home .content h3{
+    color:black;
+    font-size: 3rem;
+}
+
+.home .content h3 span{
+   color: orangered;
+}
+.home .content p{
+    color:light currentColor;
+    font-size: 1.7rem;
+    padding:1rem 0;
+    line-height: 1.8;
+}
+.home .content .search input[type=text] {
+    background-color:white;
+    border-radius: 2rem;
+    float: center;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    width: 50%;
+
+  }
+  .home .content button {
+    background-color: orangered;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+    margin-top: 2.5vh;
+    
+    border-radius: 2rem;
+  }
+  button:hover {
+    opacity: 0.5;
+  }
+  .main{
+    width: 20%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  padding: 10px 20px;
+  margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 2rem;
+    
+  }
+ .main #image{
+    margin-top: 1vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 100%;
+    border-radius: 1rem;
+}
+.main p{
+    padding-top: 10px;
+    text-align: center;
+    text-decoration: solid;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: #eee;
+    color: orangered
+}  
+
+#name{
+    padding-top: 10px;
+    text-align: center;
+    text-decoration: solid;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: #eee;
+    color: black;
+}
+#image:hover{
+    scale: 1.15;
+}
+.searched-meal-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+.card{
+    
+    width: 20%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    padding: 10px 20px;
+    margin: 2vh;
+      border-radius: 2rem;
+        
+}
+.card:hover{
+   scale: 1.15;
+   
+}
+  .card .mealimage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 70%;
+    border-radius: 1rem;
+}
+.mealname{
+    padding-top: 10px;
+    text-align: center;
+    text-decoration: solid;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: #eee;
+    color: black; 
+}
+#text::placeholder{
+  text-align: center;
+}
+h2{
+    padding-top: 10px;
+    text-align: center;
+    text-decoration: solid;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: #eee;
+    color: black
+}
+.list{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 70%;
+    border-radius: 1rem;
+}
+#results{
+    color:black;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 13%;
+    font-size: 40px;
+}
+
+.ListDes {
+      width: 50%;
+    height: 50vh;  
+    position: fixed;
+    top: 80%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-color: rgb(93, 176, 176);
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    border-radius: 2rem;
+    box-sizing: inherit;
+    transform: translate(-50%,-50%);
+
+}
+#ingredients{
+    font-size: 15px;
+
+}
